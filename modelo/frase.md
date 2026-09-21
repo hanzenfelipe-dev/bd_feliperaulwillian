@@ -32,4 +32,4 @@ Fornecedor nome, CNPJ, telefone
 
 produto e pedido, daí "nasce" a quantidade
 
--
+
