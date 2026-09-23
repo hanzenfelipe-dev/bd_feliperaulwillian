@@ -1,17 +1,15 @@
-# O caso do trio
+8 O caso do trio
 
-**Integrantes:**
+**Integrantes:Felipe, Raul, Willian**
 
-**Turma:**
+**Turma:1°C**
 
 ---
 
 ## Em uma frase
 
-> _Escreva aqui o que o sistema controla, em uma frase, sem a palavra "sistema"._
->
-> Exemplo: a secretaria precisa saber qual aluno está inscrito em qual
-> modalidade esportiva, desde quando, e se a inscrição ainda vale.
+A loja precisa saber quais produtos estão disponíveis, quais clientes fizeram pedidos, quais peças foram compradas e a quantidade de cada produto em cada pedido.
+
 
 ## As entidades
 
