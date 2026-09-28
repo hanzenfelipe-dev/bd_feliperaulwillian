@@ -8,8 +8,7 @@
 
 ## Em uma frase
 
-A loja precisa saber quais produtos estão disponíveis, quais clientes fizeram pedidos, quais peças foram compradas e a quantidade de cada produto em cada pedido.
-
+A loja precisa saber quais produtos estão disponíveis, quais clientes fizeram pedidos, quais funcionários realizaram os atendimentos, quais fornecedores fornecem os produtos e quais produtos foram comprados em cada pedido, incluindo a quantidade de cada produto.
 
 ## As entidades
 
