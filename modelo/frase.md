@@ -1,4 +1,4 @@
-# O caso do trio
+8 O caso do trio
 
 **Integrantes:Felipe, Raul, Willian**
 
@@ -15,14 +15,18 @@ A loja precisa saber quais produtos estão disponíveis, quais clientes fizeram 
 Cada substantivo da frase que tem vida própria e que você precisa guardar mais
 de um. Liste aqui, um por linha, com dois ou três atributos de cada:
 
--
--
--
--
+Produto: nome, preço, estoque
+
+Cliente: nome, CPF, telefone
+
+Pedido: número, data, valor
+
+funcionário:nome, CPF, cargo
+
+Fornecedor nome, CNPJ, telefone
 
 ## O N:N com atributo próprio
 
-Qual é o par de entidades que se cruza muitos-para-muitos, e qual dado nasce
-**do encontro** entre elas (e não de nenhum dos dois lados)?
+produto e pedido, daí "nasce" a quantidade
 
--
+
