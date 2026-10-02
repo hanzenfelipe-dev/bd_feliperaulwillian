@@ -38,10 +38,10 @@ SELECT * FROM leitor
 CREATE TABLE  emprestimo(
     id INTEGER PRIMARY KEY,
     id_livro INTEGER NOT NULL,
-    
+);
 
-
-)
+ALTER TABLE emprestimo
+ADD COLUMN 
 
 
 -- ex4
