@@ -40,14 +40,48 @@ CREATE TABLE  emprestimo(
     id_livro INTEGER NOT NULL,
 );
 
-ALTER TABLE emprestimo
-ADD COLUMN 
+INSERT INTO emprestimo (id, id_livro) VALUES (1, 101),
+INSERT INTO emprestimo (id, id_livro) VALUES (2, 102),
 
-
+ALTER TABLE EMPRESTIMO 
+ADD COLUMN situacao TEXT NOT NULL DEFAULT 'finalizado',
 -- ex4
+CREATE TABLE editora(
+    id INTEGER  PRIMARY KEY,
+    nm TEXT
+);
 
-
+ALTER TABLE editora(
+    RENAME COLUMN nm TO nome,
+)
 -- ex5
+CREATE TABLE rascunho(
+    id INTEGER PRIMARY KEY,
+    texto TEXT (250),
+)
 
+INSERT INTO rascunho (id, texto) VALUES (1, ramelt)
+INSERT INTO rascunho (id, texto) VALUES (2, tomeu e julia)
+INSERT INTO rascunho (id, texto) VALUES (3, cinquenta tons de prata)
 
--- ex6
+DELETE FROM rascunho (texto) VALUES (ramelt, tomeu e julia, cinquenta tons de prata)
+
+SELECT * FROM rascunho;
+
+DROP TABLE rascunho;
+
+-- ex6 
+CREATE TABLE livro(
+id INTEGER PRIMARY KEY,
+titulo TEXT (250),
+);
+
+CREATE TABLE leitor(
+    id INTEGER PRIMARY KEY,
+    nome TEXT (250),
+);
+
+CREATE TABLE emprestimo(
+    id_livro INTEGER NOT NULL,
+    id_leitor INTEGER NOT NULL,
+);
